@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+<LINK rel="stylesheet" href="../../style.css" type="text/css">
+</HEAD>
+<BODY>
+<script language="JavaScript">
+<!--
+// This from Hotwired...
+function WM_imageSwap(daImage, daSrc){
+   // Check to make sure that images are supported in the DOM.
+  if(document.images){
+    // Check to see whether you are using a name 
+    // or the array placement and swap the source.
+    // Thanks to Nadav for suggesting that typeof be 
+    // used to differentiate between them.
+    if ((typeof daImage == 'string') || (typeof daImage == 'number')) {
+      document.images[daImage].src = daSrc;
+      // Or if an object reference was used, make sure it's an image.
+    } else if (daImage && daImage.src) {
+      daImage.src = daSrc;
+    }
+  }
+}
+
+// -->
+
+</script>
+
+<P>
+<A href="#" onMouseOver="WM_imageSwap('myImg', 'wormelow-tump-new.jpg');" onMouseOut="WM_imageSwap('myImg', 'wormelow-tump-old.jpg');">
+<IMG src="wormelow-tump-old.jpg" name="myImg" alt="Photo: Wormelow Tump, 1920s to 1930s." class=photo float=left valign=top></IMG>
+</A>
+<BR>
+Possible location of Wormelow Tump (behind fence and wall next to building), 1920s to 1930s. To see 
+an equivalent October 2005 shot put your mouse over the image 
+(if you don't have Javascript, you can see the photos 
+<A href="wormelow-tump-old.html" class=photo>here</A> and 
+<A href="wormelow-tump-new.html" class=photo>here</A>).  
+</P>
+</BODY>
+</HTML>

@@ -1,0 +1,28 @@
+body { 
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	background: #ffffff url('../background.jpg'); 
+	color:#FFFFDD;
+	text-align:justify;
+	font-size:8pt; 
+	margin: 15 5 5 5;
+}
+
+
+
+SUP {
+	font-size:5pt; 
+}
+
+a:link { 
+	color: #FFFFDD;
+}       			
+a:visited {
+	color: #FFFFDD;
+}  			 
+a:active {
+	color: #FFFFDD;
+}    			 
+a:hover {
+	color: #FFFFDD;
+}
+

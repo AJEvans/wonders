@@ -1,0 +1,59 @@
+body { 
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	background: #ffffff url('background.jpg'); 
+	color:#352B1E;
+	text-align:justify;
+	font-size:8pt; 
+	margin: 15 5 5 5;
+}
+
+
+SPAN.smallcaps {
+	font-size:8pt; 
+}
+
+SUP {
+	font-size:5pt; 
+}
+
+a:link { 
+	color: #352B1E;
+}       			
+a:visited {
+	color: #352B1E;
+}  			 
+a:active {
+	color: #9F574A;
+}    			 
+a:hover {
+	color: #9F574A;
+}
+
+BLOCKQUOTE {
+	font-family: Cursive, Times, Times New Roman, serif;
+	font-style: italic;
+	text-align:justify;
+	font-size:8pt; 
+	margin: 0 0 20 0;
+}
+
+Q {
+	font-family: Cursive, Times, Times New Roman, serif;
+	font-style: italic;
+	font-size:8pt; 
+}
+
+TD {
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	color:#352B1E;
+	text-align:justify;
+	font-size:8pt; 
+}
+
+TH {
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	color:#352B1E;
+	text-align:justify;
+	font-size:8pt; 
+	font-weight: bold;
+}

@@ -1,0 +1,40 @@
+body { 
+	font-family: Century Gothic, Verdana, Helvetica, Arial, sans-serif;
+	background: #ffffff url('background.jpg'); 
+	font-size:9pt;
+	color: #352B1E;
+}
+
+P {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+UL {
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align:justify;
+}
+
+LI {
+	list-style-type: none;
+	margin: 0px 0px 0px 15px;
+}
+
+a:link { 
+	color: #352B1E;
+}       			
+
+a:visited {
+	color: #352B1E;
+}  			
+
+a:active {
+	color: #9F574A;
+}    			
+
+a:hover {
+	color: #9F574A;
+}
+

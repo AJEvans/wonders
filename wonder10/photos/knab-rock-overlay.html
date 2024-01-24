@@ -1,0 +1,67 @@
+<HTML>
+<HEAD>
+<LINK rel="stylesheet" href="../../style.css" type="text/css">
+<script language="JavaScript"><!--
+
+// javascript random rollover
+			// adapted (brutally) from a script written by Joe Maller, 1997
+			// part of the "Simplest Possible JavaScripts" at
+			// http://www.joemaller.com 
+			
+				roller= new Array()
+				roller[0]= new Image(350,570)
+				roller[0].src ='knab-rock-overlay1.jpg'
+				roller[1]= new Image(350,570)
+				roller[1].src ='knab-rock-overlay2.jpg'
+				roller[2]= new Image(350,570)
+				roller[2].src ='knab-rock-overlay3.jpg'
+								
+				showthis=0 	//prepares the repeat-preventing variable
+				
+				function RandomSwapOut() {		
+
+						showthis = ((showthis + 1)%roller.length);	
+						
+						
+						//the next line replaces the image with the new, random image
+						
+						document.start.src = roller[showthis].src; return true;	
+				}
+
+
+				
+				function SwapBack() {		
+					document.start.src = "knab-rock-overlay1.jpg"; 
+					showthis=0; return true;	
+
+				}
+// -->
+</script>
+</HEAD>
+<BODY>
+<P>
+<IMG  name="start" src="knab-rock-overlay1.jpg" onclick="RandomSwapOut()" onmouseout="SwapBack()" border=0 alt="Photo: Knab Rock." class=photo align=left></IMG>
+</P>
+<P>
+The rock-arch. 
+Click the picture to see an overlay of the 1805 print and again to see the complete image (for those without 
+Javascript, here's the 
+<A href="knab-rock-overlay2.html" target=right>overlay</A> and 
+<A href="knab-rock-overlay3.html" target=right>print</A>). 
+</P>
+<P>
+Print image &#169;&nbsp;Swansea Museum, all rights reserved. Thanks go to Swansea Museum 
+for allowing use of this image here.
+</P>
+</BODY>
+<map name="map1">
+  <area shape=rect coords="0,0,350,570" 
+      onmouseover="RandomSwapOut()"; 
+	onmouseout="SwapBack()";
+	onclick="RandomSwapOut()";
+      return true"> 
+  <area shape=default
+      return true">
+
+</map>
+</HTML>

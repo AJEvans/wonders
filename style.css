@@ -1,0 +1,115 @@
+body { 
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	background: #ffffff url('background.jpg'); 
+	color:#352B1E;
+	text-align:justify;
+	margin: 5 35 5 5;
+
+	scrollbar-3dlight-color:#D2B48C;
+        scrollbar-arrow-color:#8B4513;
+        scrollbar-base-color:#556B2F;
+        scrollbar-track-color:#D2B48C; 
+        scrollbar-darkshadow-color:#D2B48C;
+        scrollbar-face-color:#F5DEB3;
+        scrollbar-highlight-color:#FFF5EE;
+        scrollbar-shadow-color:#DEB88;
+
+}
+
+H3 {
+	font-family: Times, Times New Roman, serif;
+	margin: 28 0 0 0;
+	font-size : 14pt;
+	color:#4D3E2B;
+}
+
+
+P {
+	text-align:justify;
+	font-size:9pt; 
+	margin: 0 0 20 0;
+}
+
+LI {
+	text-align:left;
+	font-size:9pt; 
+}
+
+DT {
+	text-align:left;
+	font-size:9pt; 
+}
+
+DD {
+	text-align:left;
+	font-size:9pt; 
+}
+
+
+TABLE {
+	text-align:left;
+	font-size:9pt; 
+}
+
+TABLE.cells {
+	border-style: none;
+}
+
+TD {
+	text-align: justify;
+}
+
+TD.cells {
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #924900;
+	text-align: center;
+}
+
+SUP {
+	font-size:10px; 
+}
+
+BLOCKQUOTE {
+	font-family: Cursive, Times, Times New Roman, serif;
+	font-style: italic;
+	text-align:justify;
+	font-size:9pt; 
+	margin: 0 0 20 0;
+}
+
+Q {
+	font-family: Cursive, Times, Times New Roman, serif;
+	font-style: italic;
+	font-size:9pt; 
+}
+
+SPAN.smallcaps {
+	font-size:8pt; 
+}
+
+I.figureCaption {
+	font-family: Cursive, Times, Times New Roman, serif;
+	font-style: italic;
+	text-align:justify;
+	font-size:9pt; 
+	margin: 0 0 0 0;
+}
+
+a:link { 
+	color: #352B1E;
+}       			 
+
+a:visited {
+	color: #352B1E;
+}  			 
+
+a:active {
+	color: #9F574A; 
+}    			 
+
+a:hover {
+	color: #9F574A;
+}
+
+
